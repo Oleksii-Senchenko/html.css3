@@ -16,153 +16,174 @@
   </head>
   <body>
     <header class="header">
-      <h1>
-        <span class="logo_web">Web</span><span class="logo_header">Studio</span>
-      </h1>
-      <nav class="header__nav">
-        <ul class="header__list list">
-          <li class="header__item">
-            <a class="header__link link" href="">Студия</a>
-          </li>
-          <li class="header__item">
-            <a class="header__link link" href="./portfolio.html" target="_blank"
-              >Портфолио</a
+      <div class="container header__container">
+        <a class="logo">
+          <span class="logo_web">Web</span
+          ><span class="logo_header">Studio</span>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list list">
+            <li class="header__item">
+              <a class="header__link link" target="_blank" href="">Студия</a>
+            </li>
+            <li class="header__item">
+              <a
+                class="header__link link"
+                href="./portfolio.html"
+                target="_blank"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact_list list">
+          <li class="contact__item">
+            <a class="contact__link link" href="mailto:alex.sench7@gmail.com"
+              >alex.sench7@gmail.com</a
             >
           </li>
-          <li class="header__item">
-            <a class="header__link link" href="#contacts">Контакты</a>
+          <li class="contact__item">
+            <a class="contact__link link" href="tel:+380930166231"
+              >+38 093 01 66 231</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="contact_list list">
-        <li class="contact__item">
-          <a class="header__phone link" href="mailto:alex.sench7@gmail.com"
-            >alex.sench7@gmail.com</a
-          >
-        </li>
-        <li class="contact__item">
-          <a class="header__phone link" href="tel:+380930166231"
-            >+38 093 01 66 231</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- hero section -->
-      <section class="hero">
-        <h1 class="hero__title">ЕФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button class="hero__bth" type="button">Оформить заказ</button>
+      <section class="hero__section">
+        <div class="container">
+          <h2 class="hero__title">ЕФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h2>
+          <button class="hero__bth" type="button">Оформить заказ</button>
+        </div>
       </section>
 
       <!-- info section -->
-      <section class="info_section">
-        <ul class="info__list list">
-          <li class="info__item">
-            <h2 class="info__title">Внимание к деталсям</h2>
-            <p class="info__p">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="info__item">
-            <h2 class="info__title">Пунктуальность</h2>
-            <p class="info__p">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="info__item">
-            <h2 class="info__title">Планирование</h2>
-            <p class="info__p">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="info__item">
-            <h2 class="info__title">Современные технологии</h2>
-            <p class="info__p">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="info__section">
+        <div class="container">
+          <ul class="info__list list">
+            <li class="info__item">
+                <h2 class="info__title">Внимание к деталсям</h2>
+                <p class="info__p">
+                  Ідейні міркування, і навіть початок повсякденної роботи з
+                  формування позиції.
+                </p>
+            </li>
+            <li class="info__item">
+              <h2 class="info__title">Пунктуальность</h2>
+              <p class="info__p">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="info__item">
+              <h2 class="info__title">Планирование</h2>
+              <p class="info__p">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="info__item">
+              <h2 class="info__title">Современные технологии</h2>
+              <p class="info__p">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- about section -->
-      <section class="about_section">
-        <h2 class="title_text">Чем мы занимаемся</h2>
-        <ul class="about__list list">
-          <li class="about__item">
-            <img
-              src="./immages/about/img-1.png"
-              width="370"
-              height="294"
-              alt=""
-            />
-          </li>
-          <li class="about__item">
-            <img
-              src="./immages/about/img.jpg"
-              width="370"
-              height="294"
-              alt=""
-            />
-          </li>
-          <li class="about__item">
-            <img
-              src="./immages/about/img.png"
-              width="370"
-              height="294"
-              alt=""
-            />
-          </li>
-        </ul>
+      <section class="about__section">
+        <div class="container">
+          <h2 class="title_text">Чем мы занимаемся</h2>
+          <ul class="about__list list">
+            <li class="about__item">
+              <img
+                class="about__img"
+                src="./immages/about/img-1.png"
+                width="370"
+                height="294"
+                alt=""
+              />
+            </li>
+            <li class="about__item">
+              <img
+                class="about__img"
+                src="./immages/about/img.jpg"
+                width="370"
+                height="294"
+                alt=""
+              />
+            </li>
+            <li class="about__item">
+              <img
+                class="about__img"
+                src="./immages/about/img.png"
+                width="370"
+                height="294"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- team section -->
 
       <section class="team_setion">
-        <h2 class="title_text">Наша команда</h2>
-        <ul class="tram__list list">
-          <li class="team__item">
-            <img
-              src="./immages/team/img-1.png"
-              width="270px"
-              height="260px"
-              alt=""
-            />
-            <h2 class="team__name">Ігор Дем'яненко</h2>
-            <p class="team__position">Product Designer</p>
-          </li>
-          <li class="team__item">
-            <img
-              src="./immages/team/img-2.png"
-              width="270px"
-              height="260px"
-              alt=""
-            />
-            <h2 class="team__name">Ольга Репина</h2>
-            <p class="team__position">Frontend Developer</p>
-          </li>
-          <li class="team__item">
-            <img
-              src="./immages/team/img-3.png"
-              width="270px"
-              height="260px"
-              alt=""
-            />
-            <h2 class="team__name">Никита тарасов</h2>
-            <p class="team__position">Marketing</p>
-          </li>
-          <li class="team__item">
-            <img
-              src="./immages/team/img.png"
-              width="270px"
-              height="260px"
-              alt=""
-            />
-            <h2 class="team__name">Миша Эрмаков</h2>
-            <p class="team__position">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title_text">Наша команда</h2>
+          <ul class="team__list list">
+            <li class="team__item">
+              <img src="./immages/team/img-1.png" alt="" />
+              <div class="team__wrapper">
+                <h2 class="team__name">Ігор Дем'яненко</h2>
+                <p class="team__position">Product Designer</p>
+              </div>
+            </li>
+
+            <li class="team__item">
+              <img
+                src="./immages/team/img-2.png"
+                width="100%"
+                height="260px"
+                alt=""
+              />
+              <div class="team__wrapper">
+                <h2 class="team__name">Ольга Репина</h2>
+                <p class="team__position">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img
+                src="./immages/team/img-3.png"
+                width="100%"
+                height="260px"
+                alt=""
+              />
+              <div class="team__wrapper">
+                <h2 class="team__name">Никита тарасов</h2>
+                <p class="team__position">Marketing</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img
+                src="./immages/team/img-4.png"
+                width="100%"
+                height="260px"
+                alt=""
+              />
+              <div class="team__wrapper">
+                <h2 class="team__name">Миша Эрмаков</h2>
+                <p class="team__position">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
